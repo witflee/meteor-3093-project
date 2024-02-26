@@ -1,5 +1,5 @@
 {
-"name": "Nodejs Development Environment",
+"name": "Nodejs with Meteor Development Environment",
 "build": {
   "context": "..",
   "dockerfile": "Dockerfile"
@@ -10,6 +10,7 @@
            "terminal.integrated.shell.linux": "/bin/bash"
        },
        "extensions": [
+        "vuhrmeister.vscode-meteor"
       ]
    }
 },
