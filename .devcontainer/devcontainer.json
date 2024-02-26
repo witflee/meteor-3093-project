@@ -1,0 +1,21 @@
+{
+"name": "Nodejs Development Environment",
+"build": {
+  "context": "..",
+  "dockerfile": "Dockerfile"
+},
+"customizations": {
+   "vscode": {
+       "settings": {
+           "terminal.integrated.shell.linux": "/bin/bash"
+       },
+       "extensions": [
+      ]
+   }
+},
+"features": {
+    "ghcr.io/devcontainers/features/github-cli:1": {}
+},
+"forwardPorts": [3000],
+"postCreateCommand": ""
+}
