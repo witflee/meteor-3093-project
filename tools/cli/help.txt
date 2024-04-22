@@ -191,6 +191,7 @@ Options:
   --svelte      Create a basic svelte-based app.
   --typescript  Create a basic Typescript React-based app.
   --blaze       Create a basic blaze-based app.
+  --ts-blaze    Create a basic blaze-based and typescript-based app.
   --tailwind    Create a basic react-based app, with tailwind configured.
   --chakra-ui   Create a basic react-based app, with chakra-ui configured.
   --solid       Create a basic solid-based app.

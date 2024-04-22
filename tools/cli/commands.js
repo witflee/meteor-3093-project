@@ -542,6 +542,7 @@ export const AVAILABLE_SKELETONS = [
   "tailwind",
   "chakra-ui",
   "solid",
+  "ts-blaze"
 ];
 
 const SKELETON_INFO = {
@@ -557,7 +558,8 @@ const SKELETON_INFO = {
   "svelte": "To create a basic Svelte app",
   "tailwind": "To create an app using React and Tailwind",
   "chakra-ui": "To create an app Chakra UI and React",
-  "solid": "To create a basic Solid app"
+  "solid": "To create a basic Solid app",
+  "ts-blaze": "To create an app using TypeScript and Blaze"
 }
 
 main.registerCommand({
@@ -581,7 +583,8 @@ main.registerCommand({
     tailwind: { type: Boolean },
     'chakra-ui': { type: Boolean },
     solid: { type: Boolean },
-    prototype: { type: Boolean }
+    prototype: { type: Boolean },
+    'ts-blaze': { type: Boolean }
   },
   pretty: false,
   catalogRefresh: new catalog.Refresh.Never()
